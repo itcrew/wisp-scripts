@@ -10,9 +10,9 @@
 # https://wiki.mikrotik.com/wiki/Automatic_Centralized_Backup_from_Linux
 #
 # Para funcionar, favor instalar o sshpass. Caso utilize o ssh com chave pública, é necessário adaptar o script (sudo apt-get install sshpass).
-LOGIN="ubnt"
+LOGIN="user"
 #PASSWORD=$(awk 'NR == 1' pf) #read password from file named "pf"
-PASSWORD="adm-7006"
+PASSWORD="password"
 SSHPORT=22
 FTPPORT=21
 #IPLISTFILE=mtlist #read ip addresses from this file - one address per line, end of line (press enter) after each
