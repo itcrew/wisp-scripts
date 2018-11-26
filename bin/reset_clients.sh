@@ -3,9 +3,9 @@
 #https://wiki.mikrotik.com/wiki/Automatic_Centralized_Backup_from_Linux
 #
 # Install package "sshpass" before using this script (sudo aptitude install sshpass -y).
-LOGIN=admin
+LOGIN="username"
 #PASSWORD=$(awk 'NR == 1' pf) #read password from file named "pf"
-PASSWORD="adm-7006"
+PASSWORD="password"
 SSHPORT=10022
 FTPPORT=21
 #IPLISTFILE=mtlist #read ip addresses from this file - one address per line, end of line (press enter) after each
